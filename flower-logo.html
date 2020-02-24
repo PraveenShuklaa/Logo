@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>logo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .body{
+            height: 70vh;
+            padding: 15vh 34%;
+        }
+        .wrapper{
+            height: 100%;
+        }
+        .row1{
+            height: 40%;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .col{
+            width: 45%;
+            height: 100%;
+            border: 2px solid pink;
+            box-sizing: border-box;
+        }
+        .petal1{
+            border-radius: 0% 60%;
+        }
+        .top{
+            background: linear-gradient(#d70808eb,#ffda00);
+            box-shadow: -4px -5px 3px red;
+        }
+        .bottom{
+            background: linear-gradient(#ffda00,#d70808eb);
+            box-shadow: -4px 5px 3px red;
+
+        }
+        .petal2{
+            border-radius: 60% 0%;
+        }
+        
+        .center{
+            background: radial-gradient(#ffa600,#ffd600);
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid pink;
+            box-sizing: border-box;
+        }
+        .clr{
+            clear: both;
+        }
+        .row2{
+            height: 20%;
+            padding: 0% 40%;
+            margin: -1.6%;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="wrapper">
+            <div class="row1">
+                <div class="col fl petal1 top "></div>
+                <div class="col fr petal2 top "></div>
+            </div>
+            
+            <div class="row2">
+                <div class="center"></div>
+            </div>
+            <div class="row1">
+                <div class="col fl petal2 bottom"></div>
+                <div class="col fr petal1 bottom"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
