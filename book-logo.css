@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #857e7e;
+}
+.wrapper{
+    background-color: #fff;
+    margin: 8vh 20%;
+    height: 84vh;
+    padding: 5%;
+    position: relative;
+}
+.main{
+    background-color: #857e7e;
+    height: 100%;
+    padding: 5% 15%;
+}
+.content{
+    background-color: #fff;
+    height: 100%;
+    padding: 8%;
+    font-size: 40vh;
+    text-align: center;
+    color: #857e7e;
+}
+.rec{
+    background-color: #857e7e;
+    width: 12%;
+    height: 10%;
+    position: absolute;
+    border-radius: 25%;
+    border: 5px solid #fff;
+}
+.box1{
+    bottom: 65%;
+    right: 85%;
+}
+.box2{
+    bottom: 45%;
+    right: 85%;
+}
+.box3{
+    bottom: 25%;
+    right: 85%;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.main{
+    text-align: center;
+    margin-top: 20vh;
+    float: left;
+    width: 100%;
+    font-size: 20vh;
+}
+.inner{
+    border: 2px solid;
+    border-radius: 15vh;
+    margin-left: 25%;
+    float: left;
+    padding: 1%;
+}
+.text{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1.5vh;
+}
